@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
 	@RequestMapping("/login")
 	public String login() {
+		System.out.println("ooooooooooooooo");
 		return "hello world 。。。。";
 	}
 
